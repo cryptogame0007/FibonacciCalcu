@@ -1,0 +1,10 @@
+     System.out.println("Число Фибоначчи под номером " + n + ": " + fibonacciNumber);
+    }
+
+    public static int calculateFibonacci(int n) {
+        if (n <= 1) {
+            return n;
+        }
+        return calculateFibonacci(n - 1) + calculateFibonacci(n - 2);
+    }
+}
